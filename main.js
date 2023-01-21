@@ -1,8 +1,9 @@
 function binaryToDecimal(num) {
-  //
+  // * num: string
+
   num = parseInt(num)
-  const arrQuotient = []
-  const arrRest = []
+  const arrQuotient = [] // * arrQuotient: number[]
+  const arrRest = [] // * arrRest: number[]
 
   let i = 0
   while (num >= 2) {
